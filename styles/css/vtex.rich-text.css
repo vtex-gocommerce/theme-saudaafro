@@ -13,3 +13,22 @@
     font-weight: normal;
     margin: 40px 0 0;
 }
+
+.container--worldwide {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: #F57F35;
+    margin: 0;
+    max-width: 100%;
+}
+
+.container--worldwide [class*="paragraph"] {
+    color: #ffffff!important;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}

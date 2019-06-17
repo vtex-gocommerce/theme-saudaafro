@@ -1,9 +1,8 @@
 {
   "store.home": {
     "blocks": [
+      "rich-text#worldwide",
       "carousel#home",
-      "flex-layout.row#tarja",
-      "flex-layout.row#carousel",
       "rich-text#categoryTitle",
       "search-result#home",
       "newsletter"
@@ -19,7 +18,8 @@
     ],
     "props": {
       "pagination": "show-more",
-      "blockClass": "home"
+      "blockClass": "home",
+      "maxItemsPerPage": 8
     }
   },
 
@@ -56,6 +56,13 @@
       "header-row#4-desktop",
       "header-row#5-desktop"
     ]
+  },
+
+  "rich-text#worldwide": {
+    "props": {
+      "text": "WORLDWIDE SHIPPING",
+      "blockClass": "worldwide"
+    }
   },
 
   "header-row#1-desktop": {
