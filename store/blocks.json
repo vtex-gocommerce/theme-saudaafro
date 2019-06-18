@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#worldwide",
       "carousel#home",
       "rich-text#categoryTitle",
       "search-result#home",
@@ -577,7 +576,7 @@
           "isOneClickBuy": false,
           "showBadge": true,
           "badgeText": "OFF",
-          "buyButtonText": "Comprar",
+          "buyButtonText": "Buy",
           "displayBuyButton": false,
           "showCollections": false,
           "showListPrice": true,
@@ -618,7 +617,7 @@
           "isOneClickBuy": false,
           "showBadge": true,
           "badgeText": "OFF",
-          "buyButtonText": "Comprar",
+          "buyButtonText": "Buy",
           "displayBuyButton": false,
           "showCollections": false,
           "showListPrice": true,

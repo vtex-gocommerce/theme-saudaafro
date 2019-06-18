@@ -3,6 +3,8 @@
     transition: .3s;
 }
 
+
+
 .container:hover {
     box-shadow: 0 1px 10px rgba(0,0,0,.070);
 }
@@ -12,7 +14,7 @@
 }
 
 .container>a:after {
-    content: "Comprar";
+    content: "Buy";
     display: block;
     padding: 10px 0;
     background: #000;
@@ -22,4 +24,21 @@
     margin: 0 auto 20px;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 40rem) {
+
+.imageNormal {
+    max-height: 8rem;
+}
+
+.nameContainer {
+    min-height: 60px;
+}
+
+.priceContainer {
+    min-height: 82px;
+}
+
 }
