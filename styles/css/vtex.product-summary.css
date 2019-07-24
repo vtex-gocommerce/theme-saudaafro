@@ -27,6 +27,14 @@
 }
 
 
+@media screen and (min-width: 40rem) {
+
+.imageNormal {
+    max-height: 180px;
+}
+
+}
+
 @media screen and (max-width: 40rem) {
 
 .imageNormal {

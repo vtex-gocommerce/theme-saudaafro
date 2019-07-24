@@ -2,6 +2,7 @@
   "store.home": {
     "blocks": [
       "carousel#home",
+      "flex-layout.row#tarja",
       "rich-text#categoryTitle",
       "search-result#home",
       "newsletter"

@@ -1,7 +1,7 @@
 {
   "vendor": "gc-kuk6930",
   "name": "sauda-afro",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "title": "Saúda Afro Theme",
   "builders": {
     "styles": "1.x",
