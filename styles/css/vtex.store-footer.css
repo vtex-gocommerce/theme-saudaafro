@@ -6,9 +6,11 @@
     padding: 20px 0;
 }
 
-.row--credits [class*="paragraph"] {
-    font-size: 12px;
+.row--credits [class*="paragraph"], .row--address [class*="paragraph"] {
+    font-size: 14px;
     color: #999;
+    margin: 0;
+    text-align: left;
 }
 
 .row--menu-row [class*="styledLinkContainer"] {

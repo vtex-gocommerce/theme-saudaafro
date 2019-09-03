@@ -681,6 +681,7 @@
     "children": [ 
       "footer-row#1-desktop",
       "footer-row#2-desktop",
+      "footer-row#4-desktop",
       "footer-row#3-desktop"
     ]
   },
@@ -1056,7 +1057,7 @@
   },
   "powered-by": {
     "props": {
-      "showInColor": false,
+      "showInColor": true,
       "logoUrl": "gocommerce.com"
     }
   },
@@ -1084,13 +1085,31 @@
       "blockClass": "footer"
     }
   },
+  "rich-text#footer-address": {
+    "props": {
+      "text": "Av. Brg. Faria Lima, 4440 - Itaim Bibi, São Paulo - SP, 04538-132",
+      "blockClass": "footer-address"
+    }
+  },
+
+
+  "footer-row#4-desktop": {
+    "children": [
+      "rich-text#footer-address"
+    ],
+    "props": {
+      "blockClass": "address"
+    }
+  },
 
   "footer-layout.mobile": {
     "children": [
       "footer-row#2-mobile",
       "footer-row#1-mobile",
       "footer-row#4-mobile",
-      "footer-row#3-mobile"
+      "footer-row#3-mobile",
+      "footer-row#5-mobile",
+      "footer-row#6-mobile"
     ]
   },
   "footer-row#1-mobile": {
@@ -1120,6 +1139,23 @@
   "footer-row#4-mobile": {
     "children": [
       "social-networks"
+    ],
+    "props": {
+      "blockClass": "social"
+    }
+  },
+
+  "footer-row#5-mobile": {
+    "children": [
+      "rich-text#footer-address"
+    ],
+    "props": {
+      "blockClass": "social"
+    }
+  },
+  "footer-row#6-mobile": {
+    "children": [
+      "rich-text#footer"
     ],
     "props": {
       "blockClass": "social"
