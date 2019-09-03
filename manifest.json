@@ -1,7 +1,7 @@
 {
   "vendor": "gc-kuk6930",
   "name": "sauda-afro",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "title": "Saúda Afro Theme",
   "builders": {
     "styles": "1.x",
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "gocommerce.institutional-page": "1.x",
+    "gocommerce.content-menu": "0.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.store-footer": "2.x",
