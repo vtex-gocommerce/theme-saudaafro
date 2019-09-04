@@ -10,9 +10,3 @@
 .stretchChildrenWidth {
     padding: 20px;
 }
-
-@media screen and (max-width: 40rem) {
-    .flexRow--mini-banners, .flexRow--tarja-banners {
-        display: none;
-    }
-}

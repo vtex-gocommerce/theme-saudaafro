@@ -38,7 +38,7 @@
 @media screen and (max-width: 40rem) {
 
 .imageNormal {
-    max-height: 8rem;
+    max-height: 9rem!important;
 }
 
 .nameContainer {
