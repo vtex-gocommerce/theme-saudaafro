@@ -9,6 +9,10 @@
     ]
   },
 
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
   "search-result#home": {
     "blocks": [
       "search-title",
